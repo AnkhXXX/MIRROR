@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train.py -c=config/mirror.yml [--model_name=mirror] [--enc_version=base] [--iters=2] [--num_sa_layers=1] [--num_mg_layers=1] [--max_len=32]
 ```
-## Training
+## Testing
 
 - Execute the following command to test the MIRROR model.
 
